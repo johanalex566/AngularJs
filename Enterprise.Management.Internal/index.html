@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Enterprise manager</title>
+    <!-- Incluir Bootstrap -->
+    <link href="AppClient/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Animate.css -->
+    <link href="AppClient/css/animation.css" rel="stylesheet" />
+    <!-- Estilo personalizado -->
+    <!-- Incluir AngularJS -->
+    <script src="AppClient/lib/angular.min.js"></script>
+    <script src="AppClient/lib/angular-route.min.js"></script>
+    <!-- App -->
+    <script src="AppClient/app.js"></script>
+    <!-- factory -->
+    <!-- Controllers -->
+    <script src="AppClient/controller/MainController.js"></script>
+    <script src="AppClient/controller/PersonController.js"></script>
+</head>
+
+<body ng-controller="mainController as mc">
+
+    <div ng-include="mc.menuSuperior"></div>
+
+    <div class="container">
+        <!--Pages -->
+        <div ng-view></div>
+    </div>
+</body>
+</html>
