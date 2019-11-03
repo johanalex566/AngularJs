@@ -4,3 +4,9 @@
 
 /.vs/Enterprise.Management.Internal/v15/Server/sqlite3
 /.vs/Enterprise.Management.Internal/v15/.suo
+/.vs/slnx.sqlite
+*.suo
+/.vs/Enterprise.Management.Internal/v16/Server/sqlite3/storage.ide-wal
+/.vs/Enterprise.Management.Internal/v16/Server/sqlite3/storage.ide-shm
+/.vs/Enterprise.Management.Internal/v16/Server/sqlite3/storage.ide
+/.vs/Enterprise.Management.Internal/v16/Server/sqlite3/db.lock
