@@ -95,8 +95,16 @@
     <Content Include="AppClient\css\fontello-ie7.css" />
     <Content Include="AppClient\css\fontello.css" />
     <Content Include="AppClient\css\style.css" />
+    <Content Include="AppClient\fonts\fontello.svg" />
     <Content Include="AppClient\lib\angular-route.min.js" />
     <Content Include="AppClient\lib\angular.min.js" />
+    <Content Include="AppClient\lib\bootstrap.bundle.js" />
+    <Content Include="AppClient\lib\bootstrap.bundle.min.js" />
+    <Content Include="AppClient\lib\bootstrap.js" />
+    <Content Include="AppClient\lib\bootstrap.min.js" />
+    <Content Include="AppClient\lib\jquery-3.3.1.min.js" />
+    <Content Include="AppClient\lib\popper.min.js" />
+    <Content Include="AppClient\lib\script.js" />
     <Content Include="AppClient\templates\home.html" />
     <Content Include="AppClient\templates\menu.html" />
     <Content Include="AppClient\templates\personManager.html" />
@@ -120,6 +128,14 @@
     <Content Include="AppClient\css\bootstrap.min.css.map" />
     <Content Include="AppClient\lib\angular-route.min.js.map" />
     <Content Include="AppClient\lib\angular.min.js.map" />
+    <Content Include="AppClient\lib\bootstrap.bundle.js.map" />
+    <Content Include="AppClient\lib\bootstrap.bundle.min.js.map" />
+    <Content Include="AppClient\lib\bootstrap.js.map" />
+    <Content Include="AppClient\lib\bootstrap.min.js.map" />
+    <Content Include="AppClient\fonts\fontello.eot" />
+    <Content Include="AppClient\fonts\fontello.ttf" />
+    <Content Include="AppClient\fonts\fontello.woff" />
+    <Content Include="AppClient\fonts\fontello.woff2" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
