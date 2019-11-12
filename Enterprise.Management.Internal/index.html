@@ -2,10 +2,16 @@
 <html ng-app="app">
 
 <head>
+    <meta name="viewport" content="width=device-width" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Enterprise manager</title>
     <!-- Incluir Bootstrap -->
     <link href="AppClient/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:300,400,500&display=swap" rel="stylesheet">
+
+    <link href="AppClient/css/fontello.css" rel="stylesheet" />
+
     <!-- Animate.css -->
     <link href="AppClient/css/animation.css" rel="stylesheet" />
     <!-- Estilo personalizado -->
@@ -27,6 +33,9 @@
     <div class="container">
         <!--Pages -->
         <div ng-view></div>
+
+        <script src="AppClient/lib/jquery-3.3.1.min.js"></script>
+        <script src="AppClient/lib/bootstrap.min.js"></script>
     </div>
 </body>
 </html>
