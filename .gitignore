@@ -2,6 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+
 /.vs/Enterprise.Management.Internal/v15/Server/sqlite3
 /.vs/Enterprise.Management.Internal/v15/.suo
 /.vs/slnx.sqlite
